@@ -1,6 +1,6 @@
 # alternative pin layout for Revo-Mini hardware
 # telem1 on mainport
-# telem2 on flexiport
+# telem2 on flexiport, alternatively I2C2
 # PPM/SBUS in on RCINPUT signal pin 1
 # GPS on RCINPUT signal pins 3/4
 
@@ -26,13 +26,17 @@ FLASH_SIZE_KB 1024
 # board voltage
 STM32_VDD 330U
 
-STDOUT_SERIAL SD3
-STDOUT_BAUDRATE 57600
+# STDOUT on USART3 disabled, uncomment if needed
+# STDOUT_SERIAL SD3
+# STDOUT_BAUDRATE 57600
 
-# only one I2C bus
+# default only one I2C bus
+# add I2C2 for alternative config
 I2C_ORDER I2C1
 
+
 # order of UARTs (USB, GPS1, telem1, telem2)
+# erase USART3 for alternative config
 UART_ORDER OTG1 USART6 USART1 USART3
 
 # rcinput on RCINPUT pin 1
@@ -62,17 +66,15 @@ PB4 LED_RED OUTPUT LOW GPIO(2)
 PC6 USART6_TX USART6
 PC7 USART6_RX USART6
 
-# flexiport (telem2)
+# flexiport (telem2), alternatively I2C
+# PB10 I2C2_SCL I2C2
+# PB11 I2C2_SDA I2C2
 PB10 USART3_TX USART3
 PB11 USART3_RX USART3
 
 # mainport for telem1
 PA9 USART1_TX USART1
 PA10 USART1_RX USART1
-
-# alternative config
-# PB10 I2C2_SCL I2C2
-# PB11 I2C2_SDA I2C2
 
 # spi bus for IMU
 PA5 SPI1_SCK SPI1
