@@ -1,0 +1,237 @@
+2019-01-13 11:20:49,780  INFO Program - ******************* Logging Configured ******************* (:0) [1]
+2019-01-13 11:20:49,796 DEBUG Program - Loaded: MissionPlanner.resources, Version=1.3.62.0, Culture=de-DE, PublicKeyToken=null (:0) [1]
+2019-01-13 11:20:49,858 DEBUG Program - Loaded: GMap.NET.WindowsForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [1]
+2019-01-13 11:20:49,858 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [1]
+2019-01-13 11:20:49,921  INFO Program - 64bit os True, 64bit process True (:0) [1]
+2019-01-13 11:20:49,936 DEBUG Program - Loaded: System.Reactive, Version=4.1.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263 (:0) [Base Thread]
+2019-01-13 11:20:49,952 DEBUG Program - Loaded: SvgNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38326cb7e06851fc (:0) [Base Thread]
+2019-01-13 11:20:49,952 DEBUG Program - Loaded: ProjNET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:49,952 DEBUG Program - Loaded: GeoAPI.CoordinateSystems, Version=1.7.5.0, Culture=neutral, PublicKeyToken=a1a0da7def465678 (:0) [Base Thread]
+2019-01-13 11:20:49,952 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.ArduPilot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:49,968 DEBUG Program - Loaded: System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (:0) [Base Thread]
+2019-01-13 11:20:49,968 DEBUG Program - Loaded: System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (:0) [Base Thread]
+2019-01-13 11:20:49,968 DEBUG Program - Loaded: Transitions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:49,968 DEBUG Program - Loaded: OpenTK.GLControl, Version=3.0.1.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4 (:0) [Base Thread]
+2019-01-13 11:20:49,983 DEBUG Program - Loaded: OpenTK, Version=3.0.1.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4 (:0) [Base Thread]
+2019-01-13 11:20:49,983  INFO MissionPlanner.MainV2 - Mainv2 ctor (:0) [Base Thread]
+2019-01-13 11:20:49,983  INFO MissionPlanner.MainV2 - Loading config (:0) [Base Thread]
+2019-01-13 11:20:49,983 DEBUG Program - Loaded: MissionPlanner.Strings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,030 DEBUG Program - Loaded: BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,030 DEBUG Program - Loaded: ZedGraph, Version=5.1.5.15729, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,030 DEBUG Program - Loaded: ObjectListView, Version=2.5.1.30870, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4 (:0) [Base Thread]
+2019-01-13 11:20:50,046 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,046  INFO MissionPlanner.Utilities.srtm - .cctor (:0) [Base Thread]
+2019-01-13 11:20:50,077  INFO MissionPlanner.Utilities.srtm - C:\ProgramData\Mission Planner\srtm (:0) [Base Thread]
+2019-01-13 11:20:50,077 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner, Version=1.3.62.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,077  INFO MissionPlanner.Utilities.srtm - requestRunner start (:0) [SRTM request runner]
+2019-01-13 11:20:50,077 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,077  INFO MissionPlanner.Utilities.Speech - TTS: init, mono = False (:0) [Base Thread]
+2019-01-13 11:20:50,093  INFO MissionPlanner.MainV2 - Create FD (:0) [Base Thread]
+2019-01-13 11:20:50,108  INFO MissionPlanner.GCSViews.FlightData - Ctor Start (:0) [Base Thread]
+2019-01-13 11:20:50,140 DEBUG Program - Loaded: System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (:0) [Base Thread]
+2019-01-13 11:20:50,155 DEBUG Program - TypeResolve Failed: Mono.Runtime from OpenTK, Version=3.0.1.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4 (:0) [Base Thread]
+2019-01-13 11:20:50,155 DEBUG Program - Loaded: mscorlib.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089 (:0) [Base Thread]
+2019-01-13 11:20:50,155 DEBUG Program - FirstChanceException in: OpenTK (:0) [Base Thread]
+System.DllNotFoundException: Die DLL "libEGL.dll": Das angegebene Modul wurde nicht gefunden. (Ausnahme von HRESULT: 0x8007007E) kann nicht geladen werden.
+   bei OpenTK.Platform.Egl.Egl.GetCurrentContext()
+   bei OpenTK.Platform.Egl.Egl.get_IsSupported()
+2019-01-13 11:20:50,186 DEBUG Program - Loaded: Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,265 DEBUG Program - TypeResolve Failed: Mono.Runtime from GMap.NET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,265 DEBUG Program - Loaded: GeoUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,296 DEBUG Program - Loaded: Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (:0) [Base Thread]
+2019-01-13 11:20:50,311 DEBUG Program - FirstChanceException in: mscorlib (:0) [Base Thread]
+System.Reflection.AmbiguousMatchException: Mehrdeutige Übereinstimmung gefunden.
+   bei System.RuntimeType.GetPropertyImpl(String name, BindingFlags bindingAttr, Binder binder, Type returnType, Type[] types, ParameterModifier[] modifiers)
+2019-01-13 11:20:50,390  INFO MissionPlanner.GCSViews.FlightData - Components Done (:0) [Base Thread]
+2019-01-13 11:20:50,390  INFO MissionPlanner.GCSViews.FlightData - Tunning Graph Settings (:0) [Base Thread]
+2019-01-13 11:20:50,405  INFO MissionPlanner.GCSViews.FlightData - HUD Settings (:0) [Base Thread]
+2019-01-13 11:20:50,405  INFO MissionPlanner.ArduPilot.Common - getModesList Called (:0) [Base Thread]
+2019-01-13 11:20:50,405 DEBUG Program - Loaded: System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (:0) [Base Thread]
+2019-01-13 11:20:50,452  INFO MissionPlanner.GCSViews.FlightData - Graph Setup (:0) [Base Thread]
+2019-01-13 11:20:50,452  INFO MissionPlanner.GCSViews.FlightData - Map Setup (:0) [Base Thread]
+2019-01-13 11:20:50,452 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,452  INFO MissionPlanner.MainV2 - Create FP (:0) [Base Thread]
+2019-01-13 11:20:50,483 DEBUG Program - Loaded: System.Windows.Forms.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089 (:0) [Base Thread]
+2019-01-13 11:20:50,515 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,530  INFO MissionPlanner.GCSViews.FlightPlanner - Reading MAV_CMD for ArduPlane (:0) [Base Thread]
+2019-01-13 11:20:50,530  INFO MissionPlanner.GCSViews.FlightPlanner - updateMapType invoke req? False (:0) [Base Thread]
+2019-01-13 11:20:50,874  INFO MissionPlanner.MainV2 - Create SIM (:0) [Base Thread]
+2019-01-13 11:20:50,889 DEBUG Program - FirstChanceException in: mscorlib (:0) [Base Thread]
+System.IO.FileNotFoundException: Die Datei oder Assembly "MissionPlanner.Utilities.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden.
+Dateiname: "MissionPlanner.Utilities.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   bei System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   bei System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+
+WRN: Protokollierung der Assemblybindung ist AUS.
+Sie können die Protokollierung der Assemblybindungsfehler aktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) auf 1 festlegen.
+Hinweis: Die Protokollierung der Assemblybindungsfehler führt zu einer gewissen Leistungseinbuße.
+Sie können dieses Feature deaktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] entfernen.
+
+2019-01-13 11:20:50,889 DEBUG Program - FirstChanceException in: mscorlib (:0) [Base Thread]
+System.IO.FileNotFoundException: Die Datei oder Assembly "MissionPlanner.Utilities.XmlSerializers" oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden.
+Dateiname: "MissionPlanner.Utilities.XmlSerializers"
+   bei System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   bei System.Reflection.RuntimeAssembly.LoadWithPartialNameInternal(AssemblyName an, Evidence securityEvidence, StackCrawlMark& stackMark)
+
+WRN: Protokollierung der Assemblybindung ist AUS.
+Sie können die Protokollierung der Assemblybindungsfehler aktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) auf 1 festlegen.
+Hinweis: Die Protokollierung der Assemblybindungsfehler führt zu einer gewissen Leistungseinbuße.
+Sie können dieses Feature deaktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] entfernen.
+
+2019-01-13 11:20:50,905 DEBUG Program - Loaded: Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,936  INFO MissionPlanner.MainV2 - myview width 1184 height 1017 (:0) [Base Thread]
+2019-01-13 11:20:50,936  INFO MissionPlanner.MainV2 - this   width 1200 height 1056 (:0) [Base Thread]
+2019-01-13 11:20:50,936  INFO MissionPlanner.MainV2 - myview width 1920 height 1017 (:0) [Base Thread]
+2019-01-13 11:20:50,936  INFO MissionPlanner.MainV2 - this   width 1936 height 1056 (:0) [Base Thread]
+2019-01-13 11:20:50,936  INFO MissionPlanner.MainV2 - Saving config (:0) [Base Thread]
+2019-01-13 11:20:50,936 DEBUG MissionPlanner.MainV2 - ApplyThemeTo Splash (:0) [Base Thread]
+2019-01-13 11:20:50,952 DEBUG Program - Loaded: WebCamService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,952 DEBUG Program - Loaded: DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,983  INFO MissionPlanner.MainV2 - Load Pluggins (:0) [Base Thread]
+2019-01-13 11:20:50,983 DEBUG Program - Loaded: MissionPlanner.Gridv2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,983  INFO MissionPlanner.Plugin.PluginLoader - Plugin Load C:\Program Files (x86)\Mission Planner\plugins\MissionPlanner.Gridv2.dll (:0) [Base Thread]
+2019-01-13 11:20:50,983  INFO MissionPlanner.Plugin.PluginLoader - Plugin Init Grid 0.1 by Michael Oborne (:0) [Base Thread]
+2019-01-13 11:20:50,983 DEBUG Program - Loaded: MissionPlanner.SimpleGrid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,999  INFO MissionPlanner.Plugin.PluginLoader - Plugin Load C:\Program Files (x86)\Mission Planner\plugins\MissionPlanner.SimpleGrid.dll (:0) [Base Thread]
+2019-01-13 11:20:50,999  INFO MissionPlanner.Plugin.PluginLoader - Plugin Init SimpleGrid 0.1 by Michael Oborne (:0) [Base Thread]
+2019-01-13 11:20:50,999 DEBUG Program - Loaded: MissionPlanner.Stats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,999  INFO MissionPlanner.Plugin.PluginLoader - Plugin Load C:\Program Files (x86)\Mission Planner\plugins\MissionPlanner.Stats.dll (:0) [Base Thread]
+2019-01-13 11:20:50,999 DEBUG Program - FirstChanceException in: mscorlib (:0) [Base Thread]
+System.IO.FileNotFoundException: Die Datei oder Assembly "MissionPlanner.Stats.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden.
+Dateiname: "MissionPlanner.Stats.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+   bei System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   bei System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+
+WRN: Protokollierung der Assemblybindung ist AUS.
+Sie können die Protokollierung der Assemblybindungsfehler aktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) auf 1 festlegen.
+Hinweis: Die Protokollierung der Assemblybindungsfehler führt zu einer gewissen Leistungseinbuße.
+Sie können dieses Feature deaktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] entfernen.
+
+2019-01-13 11:20:50,999 DEBUG Program - FirstChanceException in: mscorlib (:0) [Base Thread]
+System.IO.FileNotFoundException: Die Datei oder Assembly "MissionPlanner.Stats.XmlSerializers" oder eine Abhängigkeit davon wurde nicht gefunden. Das System kann die angegebene Datei nicht finden.
+Dateiname: "MissionPlanner.Stats.XmlSerializers"
+   bei System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   bei System.Reflection.RuntimeAssembly.LoadWithPartialNameInternal(AssemblyName an, Evidence securityEvidence, StackCrawlMark& stackMark)
+
+WRN: Protokollierung der Assemblybindung ist AUS.
+Sie können die Protokollierung der Assemblybindungsfehler aktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) auf 1 festlegen.
+Hinweis: Die Protokollierung der Assemblybindungsfehler führt zu einer gewissen Leistungseinbuße.
+Sie können dieses Feature deaktivieren, indem Sie den Registrierungswert [HKLM\Software\Microsoft\Fusion!EnableLog] entfernen.
+
+2019-01-13 11:20:50,999 DEBUG Program - Loaded: Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:50,999  INFO MissionPlanner.Plugin.PluginLoader - Plugin Init Stats 0.1 by Michael Oborne (:0) [Base Thread]
+2019-01-13 11:20:51,014 DEBUG Program - Loaded: TrackerHome, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:51,014  INFO MissionPlanner.Plugin.PluginLoader - Plugin Load C:\Program Files (x86)\Mission Planner\plugins\TrackerHome.dll (:0) [Base Thread]
+2019-01-13 11:20:51,014  INFO MissionPlanner.Plugin.PluginLoader - Plugin Init GPS Tracker Home Plugin 1.0 by Will Bryan (:0) [Base Thread]
+2019-01-13 11:20:51,155 DEBUG Program - Loaded: MissionPlanner.Strings.resources, Version=1.0.0.0, Culture=de-DE, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:51,155  INFO MissionPlanner.MainV2 - Load Pluggins... Done (:0) [Base Thread]
+2019-01-13 11:20:51,155  INFO MissionPlanner.MainV2 - show FlightData (:0) [Base Thread]
+2019-01-13 11:20:51,171  INFO MissionPlanner.GCSViews.FlightData - Activate Called (:0) [Base Thread]
+2019-01-13 11:20:51,171 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=3d8db49f-f7c6-4f6f-8236-4b9c9354f1f0&t=appview&an=Mission+Planner&av=1.3.62&cd=MissionPlanner.GCSViews.FlightData&dp=MissionPlanner.GCSViews.FlightData&dt=FlightData&sc=start&ul=de-DE&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+10.0.17134.0&cd4=8&z=1480220804 (:0) [8]
+2019-01-13 11:20:51,280  INFO MissionPlanner.Controls.HUD - OnLoad Start (C:\MP\ExtLibs\Controls\HUD.cs:878) [Base Thread]
+2019-01-13 11:20:51,280  INFO MissionPlanner.Controls.HUD - Vendor: Intel (C:\MP\ExtLibs\Controls\HUD.cs:887) [Base Thread]
+2019-01-13 11:20:51,280  INFO MissionPlanner.Controls.HUD - Version: 4.4.0 - Build 21.20.16.4550 (C:\MP\ExtLibs\Controls\HUD.cs:888) [Base Thread]
+2019-01-13 11:20:51,280  INFO MissionPlanner.Controls.HUD - Device: Intel(R) HD Graphics 630 (C:\MP\ExtLibs\Controls\HUD.cs:889) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - GetInteger (C:\MP\ExtLibs\Controls\HUD.cs:894) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - MatrixMode (C:\MP\ExtLibs\Controls\HUD.cs:896) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - LoadIdentity (C:\MP\ExtLibs\Controls\HUD.cs:898) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - Ortho (C:\MP\ExtLibs\Controls\HUD.cs:900) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - MatrixMode (C:\MP\ExtLibs\Controls\HUD.cs:902) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - LoadIdentity (C:\MP\ExtLibs\Controls\HUD.cs:904) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - PushAttrib (C:\MP\ExtLibs\Controls\HUD.cs:907) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - Disable (C:\MP\ExtLibs\Controls\HUD.cs:909) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - BlendFunc (C:\MP\ExtLibs\Controls\HUD.cs:911) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - Enable (C:\MP\ExtLibs\Controls\HUD.cs:913) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - Hint (C:\MP\ExtLibs\Controls\HUD.cs:928) [Base Thread]
+2019-01-13 11:20:51,280 DEBUG MissionPlanner.Controls.HUD - Enable (C:\MP\ExtLibs\Controls\HUD.cs:944) [Base Thread]
+2019-01-13 11:20:51,280  INFO MissionPlanner.Controls.HUD - OnLoad Done (C:\MP\ExtLibs\Controls\HUD.cs:956) [Base Thread]
+2019-01-13 11:20:51,421 DEBUG MissionPlanner.Utilities.Tracking - OK (:0) [8]
+2019-01-13 11:20:51,874  INFO MissionPlanner.MainV2 - show FlightData... Done (:0) [Base Thread]
+2019-01-13 11:20:51,874  INFO MissionPlanner.MainV2 - start http (:0) [Base Thread]
+2019-01-13 11:20:51,874  INFO MissionPlanner.MainV2 - start joystick (:0) [Base Thread]
+2019-01-13 11:20:51,874  INFO MissionPlanner.MainV2 - start serialreader (:0) [Base Thread]
+2019-01-13 11:20:51,874  INFO MissionPlanner.Utilities.httpserver - Listening for client (:0) [motion jpg stream-network kml]
+2019-01-13 11:20:51,874  INFO MissionPlanner.MainV2 - start plugin thread (:0) [Base Thread]
+2019-01-13 11:20:51,874  INFO MissionPlanner.MainV2 - start udpvideoshim (:0) [Base Thread]
+2019-01-13 11:20:51,889 DEBUG Program - Loaded: tlogThumbnailHandler, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null (:0) [15]
+2019-01-13 11:20:51,889 DEBUG Program - Loaded: Ionic.Zip.NetStandard, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [22]
+2019-01-13 11:20:51,889  INFO MissionPlanner.MainV2 - start udpmavlinkshim (:0) [Base Thread]
+2019-01-13 11:20:51,889 DEBUG Program - TypeResolve Failed: Mono.Runtime from MissionPlanner.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:51,889  INFO MissionPlanner.Utilities.Firmware - getFWList (:0) [23]
+2019-01-13 11:20:51,889 DEBUG Program - Loaded: System.Text.Encoding.CodePages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (:0) [22]
+2019-01-13 11:20:51,889  INFO MissionPlanner.MainV2 - Load AltitudeAngel (:0) [Base Thread]
+2019-01-13 11:20:51,889 DEBUG Program - Loaded: AltitudeAngelWings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:51,889 DEBUG Program - Loaded: Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [23]
+2019-01-13 11:20:51,905  INFO MissionPlanner.Utilities.Firmware - url: https://raw.github.com/diydrones/binary/master/Firmware/firmware2.xml (:0) [23]
+2019-01-13 11:20:51,905 DEBUG Program - Loaded: System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (:0) [22]
+2019-01-13 11:20:51,905 DEBUG Program - Loaded: System.Runtime, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (:0) [22]
+2019-01-13 11:20:51,983 DEBUG Program - Loaded: SharpKml, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [22]
+2019-01-13 11:20:51,999 DEBUG Program - Loaded: System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (:0) [Base Thread]
+2019-01-13 11:20:52,030 DEBUG Program - Loaded: DotNetOpenAuth, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246 (:0) [Base Thread]
+2019-01-13 11:20:52,045 DEBUG Program - Loaded: Flurl.Http, Version=2.3.2.0, Culture=neutral, PublicKeyToken=null (:0) [Base Thread]
+2019-01-13 11:20:52,045 DEBUG Program - Loaded: System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (:0) [Base Thread]
+2019-01-13 11:20:52,045  INFO MissionPlanner.MainV2 - Loaded 4825 airports (:0) [8]
+2019-01-13 11:20:52,045 DEBUG Program - Loaded: Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed (:0) [Base Thread]
+2019-01-13 11:20:52,092  INFO MissionPlanner.MainV2 - Load AltitudeAngel... Done (:0) [Base Thread]
+2019-01-13 11:20:52,108  INFO MissionPlanner.MainV2 - appload time (:0) [Base Thread]
+2019-01-13 11:20:52,108 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=3d8db49f-f7c6-4f6f-8236-4b9c9354f1f0&t=timing&an=Mission+Planner&av=1.3.62&cd=MissionPlanner.GCSViews.FlightData&dp=MissionPlanner.GCSViews.FlightData&utc=AppLoad&utv=Load+Time&utt=2405&utl=&ul=de-DE&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+10.0.17134.0&cd4=8&z=1555263996 (:0) [24]
+2019-01-13 11:20:52,108 DEBUG MissionPlanner.Utilities.Update - C:\Program Files (x86)\Mission Planner\version.txt (:0) [15]
+2019-01-13 11:20:52,108  INFO MissionPlanner.Utilities.Update - Checking for update at: http://firmware.ardupilot.org/MissionPlanner/upgrade/version.txt (:0) [15]
+2019-01-13 11:20:52,217 DEBUG MissionPlanner.Utilities.Tracking - OK (:0) [24]
+2019-01-13 11:20:52,295  INFO MissionPlanner.Utilities.KIndex - K-Index is 1 (:0) [27]
+2019-01-13 11:20:52,389 DEBUG MissionPlanner.Utilities.Update - Response status: OK (:0) [15]
+2019-01-13 11:20:52,389  INFO MissionPlanner.Utilities.Update - New file Check: local 1.3.6948.15749 vs Remote 1.3.6917.15581 (:0) [15]
+2019-01-13 11:20:52,545 DEBUG Program - Loaded: System.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089 (:0) [8]
+2019-01-13 11:20:52,545 DEBUG Program - FirstChanceException in: System (:0) [8]
+System.Net.WebException: Der Remoteserver hat einen Fehler zurückgegeben: (404) Nicht gefunden.
+   bei System.Net.HttpWebRequest.GetResponse()
+2019-01-13 11:20:52,545 DEBUG Program - FirstChanceException in: System (:0) [8]
+System.Net.WebException: Der Remoteserver hat einen Fehler zurückgegeben: (404) Nicht gefunden.
+   bei System.Net.HttpWebRequest.GetResponse()
+2019-01-13 11:20:52,545  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Sub/stable/PX4/git-version.txt (:0) [8]
+2019-01-13 11:20:52,608 DEBUG Program - Loaded: GeoJSON.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [22]
+2019-01-13 11:20:52,655  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Plane/stable/fmuv3/git-version.txt (:0) [23]
+2019-01-13 11:20:52,670  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduSub V3.5.3 (:0) [8]
+2019-01-13 11:20:52,670  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3/git-version.txt (:0) [24]
+2019-01-13 11:20:52,686  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Rover/stable/fmuv3/git-version.txt (:0) [15]
+2019-01-13 11:20:52,780  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduPlane V3.9.4 (:0) [23]
+2019-01-13 11:20:52,780  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3/git-version.txt (:0) [8]
+2019-01-13 11:20:52,795  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [24]
+2019-01-13 11:20:52,811  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduRover V3.4.2 (:0) [15]
+2019-01-13 11:20:52,842  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3/git-version.txt (:0) [22]
+2019-01-13 11:20:52,889  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3/git-version.txt (:0) [23]
+2019-01-13 11:20:52,905  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [8]
+2019-01-13 11:20:52,920  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3/git-version.txt (:0) [24]
+2019-01-13 11:20:52,936  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3/git-version.txt (:0) [15]
+2019-01-13 11:20:52,967  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [22]
+2019-01-13 11:20:52,967 DEBUG Program - FirstChanceException in: System (:0) [22]
+System.UriFormatException: Ungültiger URI: Der URI ist leer.
+   bei System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+2019-01-13 11:20:52,967 ERROR MissionPlanner.Utilities.Firmware - System.UriFormatException: Ungültiger URI: Der URI ist leer.
+   bei System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   bei System.Net.WebRequest.Create(String requestUriString)
+   bei MissionPlanner.Utilities.Download.CheckHTTPFileExists(String url)
+   bei MissionPlanner.Utilities.Firmware.getAPMVersion(Object tempin) (:0) [22]
+2019-01-13 11:20:52,967 DEBUG Program - FirstChanceException in: System (:0) [22]
+System.UriFormatException: Ungültiger URI: Der URI ist leer.
+   bei System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+2019-01-13 11:20:52,967 ERROR MissionPlanner.Utilities.Firmware - System.UriFormatException: Ungültiger URI: Der URI ist leer.
+   bei System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   bei System.Net.WebRequest.Create(String requestUriString)
+   bei MissionPlanner.Utilities.Download.CheckHTTPFileExists(String url)
+   bei MissionPlanner.Utilities.Firmware.getAPMVersion(Object tempin) (:0) [22]
+2019-01-13 11:20:53,014  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [23]
+2019-01-13 11:20:53,014  INFO MissionPlanner.Utilities.Firmware - Get url http://firmware.ardupilot.org/Copter/stable/fmuv3-heli/git-version.txt (:0) [8]
+2019-01-13 11:20:53,045  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [24]
+2019-01-13 11:20:53,061  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [15]
+2019-01-13 11:20:53,139  INFO MissionPlanner.Utilities.Firmware - APMVERSION: ArduCopter V3.6.4 (:0) [8]
+2019-01-13 11:20:53,139  INFO MissionPlanner.Utilities.Firmware - load done (:0) [23]
+2019-01-13 11:20:53,139 DEBUG Program - Loaded: Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (:0) [23]
+2019-01-13 11:20:58,045  INFO MissionPlanner.Utilities.Airports - getAirports - regen list (:0) [FD Mainloop]
+2019-01-13 11:20:58,045  INFO MissionPlanner.Utilities.Airports - getAirports done 0 sec (:0) [FD Mainloop]
+2019-01-13 11:20:58,106 DEBUG MissionPlanner.Utilities.Tracking - v=1&tid=UA-43098846-1&cid=3d8db49f-f7c6-4f6f-8236-4b9c9354f1f0&t=appview&an=Mission+Planner&av=1.3.62&cd=MissionPlanner.temp&dp=MissionPlanner.temp&dt=.ctor&ul=de-DE&sd=32-bits&sr=1920x1080&cd1=Microsoft+Windows+NT+10.0.17134.0&cd4=8&z=1969900370 (:0) [8]
+2019-01-13 11:20:58,216 DEBUG MissionPlanner.Utilities.Tracking - OK (:0) [8]
+2019-01-13 11:20:58,247 DEBUG MissionPlanner.MainV2 - ApplyThemeTo temp (:0) [Base Thread]
+2019-01-13 11:20:59,783 DEBUG Program - Loaded: Microsoft.Dynamic, Version=1.2.0.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1 (:0) [Base Thread]
+2019-01-13 11:20:59,799 DEBUG Program - Loaded: GeoAPI, Version=1.7.5.0, Culture=neutral, PublicKeyToken=a1a0da7def465678 (:0) [Base Thread]
+2019-01-13 11:20:59,830 DEBUG Program - Loaded: BitMiracle.LibTiff.NetStandard, Version=2.4.584.0, Culture=neutral, PublicKeyToken=53879b3e20e7a7d6 (:0) [Base Thread]
